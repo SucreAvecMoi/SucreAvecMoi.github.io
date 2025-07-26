@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Navigation, Mousewheel, Keyboard } from "swiper/modules";
+import { Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
