@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top: 50px; /* 为固定的 header 留出空间 */
 }
 
 .App-logo {
@@ -28,6 +29,14 @@
   color: #61dafb;
 }
 
+.nav-logo {
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 50px;
+  padding: 0 50px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -37,9 +46,19 @@
   }
 }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #333;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 nav {
   background-color: #333;
-  padding: 1rem;
+  /* padding: 1rem; */
   height: 50px;
 }
 
@@ -47,6 +66,7 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 2rem;
+  line-height: 50px;
 }
 
 nav a {

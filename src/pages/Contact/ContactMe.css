@@ -33,7 +33,7 @@
 /* 主要内容区域 */
 .contact-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 3rem;
     margin-bottom: 3rem;
 }
@@ -42,8 +42,8 @@
 .contact-info h2 {
     font-size: 1.8rem;
     margin-bottom: 2rem;
-    color: #333;
     text-align: center;
+    color: white;
 }
 
 .contact-cards {
@@ -70,6 +70,7 @@
 .contact-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .contact-card h3 {

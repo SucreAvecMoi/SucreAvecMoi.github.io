@@ -1,18 +1,20 @@
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
-import Index from './pages/Index';
-import About from './pages/About';
-import ContactMe from './pages/ContactMe';
+import Index from './pages/Index/Index';
+import About from './pages/About/About';
+import ContactMe from './pages/Contact/ContactMe';
 
 function App() {
   return (
     <>
-    <header >
+    <header>
       <nav>
+        
         <ul>
-          <li><Link to="/">首页</Link></li>
-          <li><Link to="/about">关于我们</Link></li>      
-          <li><Link to="/contact">联系我们</Link></li>
+          <li className='nav-logo'>Sucre</li>
+          <li><Link to="/">Index</Link></li>
+          <li><Link to="/about">Study&Research</Link></li>      
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
     </header>
