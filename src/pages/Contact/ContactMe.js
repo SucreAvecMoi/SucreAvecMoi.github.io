@@ -1,13 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './ContactMe.css';
 
 function ContactMe() {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        message: ''
-    });
 
     return (
         <div className="contact-container">

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from "antd";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel, Keyboard } from "swiper/modules";
 
@@ -7,7 +6,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import { DownOutlined } from "@ant-design/icons";
 import './About.css';
 
 const About = () => (
