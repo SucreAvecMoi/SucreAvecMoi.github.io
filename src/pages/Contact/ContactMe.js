@@ -9,21 +9,6 @@ function ContactMe() {
         message: ''
     });
 
-    const handleChange = (e) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value
-        });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // 这里可以添加表单提交逻辑
-        console.log('Form submitted:', formData);
-        alert('Thank you for your message! I will reply to you as soon as possible.');
-        setFormData({ name: '', email: '', subject: '', message: '' });
-    };
-
     return (
         <div className="contact-container">
             <div className="contact-header">
